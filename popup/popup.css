@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+body {
+  height: max-content;
+  width: max-content;
+  background-color: indianred;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  background-color: beige;
+  margin: -8px;
+  padding: 0.5rem;
+}
+
+#time {
+  text-align: center;
+    font-size: 50px;
+    margin: 10px;
+    font-weight: normal;
+    border: 5px solid black;
+    border-radius: 16px;
+    background-color: beige;
+    color: black;
+    margin: 2rem;
+    font-family: POPPINS;
+    font-weight: 800;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#btn-container > button {
+  background-color: beige;
+  border: 3px solid black;
+  outline: none;
+  border-radius: 5px;
+  padding: 8px;
+  font-weight: bold;
+  font-family: 'POPPINS';
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+#task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.task-row {
+  width: 100%;
+}
+
+.task-input {
+  outline: none;
+  margin: 5px;
+  padding: 5px 10px 5px 10px;
+  width: 80%;
+  font-family: 'POPPINS';
+  font-weight: 700;
+  background-color: beige;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.task-delete {
+  outline: none;
+  border: none;
+  height: 25px;
+  width: 25px;
+  border-radius: 4px;
+  color: indianred;
+  cursor: pointer;
+  font-weight: 700;
+}

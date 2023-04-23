@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+body {
+  background-color: indianred;
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+  font-weight: normal;
+  font-family: Poppins;
+  margin: 4rem auto;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: normal;
+  color: whitesmoke;
+  text-align: center;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+#time-option {
+  outline: none;
+  border: none;
+  width: clamp(20rem, 50vw, 30rem);
+  border-radius: 16px;
+  padding: 10px;
+  font-family: 'POPPINS';
+  font-weight: 600;
+  border: 4px solid black;
+  font-size: clamp(5rem, 10vw, 10rem);
+  text-align: center;
+  background: beige;
+}
+
+#save-btn {
+  display: block;
+  margin-top: 40px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#timer_container {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'POPPINS';
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: 600;
+}
+
+#save-btn:hover {
+  background-color: beige;
+  scale: 1.1;
+}
+
+#save-btn {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  border: 2px solid black;
+  transition: all 0.2s ease-in-out;
+}
